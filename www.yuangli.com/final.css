@@ -1,0 +1,317 @@
+
+* { box-sizing: border-box; }
+/**/
+body {
+  font-family: 'Rokkitt', serif;
+  margin: 0;
+  background-color: black;
+}
+
+head{
+  margin: 0;
+}
+
+main {
+  background: url('../resources/freshmen-excel-bg.jpg');
+  background-size: cover;
+  height: 54rem;
+  float: left; 
+  width: 70%;
+}
+
+main a{
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 4px 2px 2px rgba(0,0,0,0.8);
+}
+
+aside{
+  background: url('../resources/black-background-geometric-shapes.jpg');
+  float: left; 
+  width: 30%;
+  height: 54rem;
+}
+
+aside h1{
+  color: #bbb;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+aside a{
+  color: #bbb;
+  font-weight: normal;
+}
+
+.statement{
+  padding: 50% 2rem;
+  text-align: left;
+}
+
+
+.title-name {
+  position: fixed;
+  z-index: 11;
+  margin: 1.3rem 6rem 0;
+  font-style: serif;
+}
+
+
+.logo{
+  max-height: 3.5rem;
+  max-width: 3.5rem;
+  margin: 0.5rem 2rem 0;
+  position: fixed;
+  z-index: 11;
+}
+
+.navbar{
+  background-color: #853B37;
+  height: 4rem;
+  width: 100%; 
+  float: left;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  text-align: right;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 0 .7rem;
+}
+
+.navbar ul li a {
+
+  font-size: 2rem;
+  color: #bbb;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+.gallery{
+background-color: black;
+height: 2130px;
+/*position: relative;*/
+}
+
+.featured-project1 {
+display: block;
+float: left;
+}
+
+.featured-project2 {
+display: block;
+}
+
+.featured-project3 {
+position: absolute;
+margin: -12.8rem 0 0 0;
+display: block;
+float: left;
+}
+
+.featured-project4 {
+position: absolute;
+margin: -.3rem 0 0 44.4rem;
+display: block;
+}
+
+.featured-project5 {
+position: absolute;
+margin: 31.54rem 0 0 44.4rem;
+display: block;
+}
+
+.featured-project6 {
+position: absolute;
+margin: 5.95rem 0 0 0;
+display: block;
+}
+
+
+.featured-projects img{
+  max-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.featured-projects iframe{
+  max-width: 100%;
+  margin: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.featured-project1 figcaption {
+  position: absolute;
+  bottom: -28rem;
+  text-align: center;
+  margin-left: 9rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.featured-project2 figcaption {
+  position: absolute;
+  bottom: -40rem;
+  text-align: center;
+  margin-left: 54rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.featured-project3 figcaption {
+  position: absolute;
+  bottom: 5rem;
+  text-align: center;
+  margin-left: 8rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.featured-project4 figcaption {
+  position: absolute;
+  bottom: 14rem;
+  text-align: center;
+  margin-left: 10rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.featured-project5 figcaption {
+  position: absolute;
+  bottom: 5rem;
+  text-align: center;
+  margin-left: 10rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.featured-project6 figcaption {
+  position: absolute;
+  bottom: 20rem;
+  text-align: center;
+  margin-left: 8rem;
+  color: white;
+  max-width: 27rem;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.featured-projects:hover figcaption {
+  opacity: 1;
+}
+
+.featured-projects:hover img{
+  opacity: .4;
+}
+
+.featured-projects:hover iframe{
+  opacity: .4;
+}
+.invision a{
+  font-weight: bold;
+  color: white;
+}
+.invision:hover a{
+    color:#bbb;
+    font-weight: bold;;
+    text-decoration: underline;
+}
+/*.featured-project1 {
+position: absolute;
+margin: 58rem 0 0 0;
+width: 50%;
+height: 100%;
+}
+
+.featured-project2 {
+position: absolute;
+margin: 58rem 0 0 705px;
+width: 50%;
+height: 100%;
+}
+
+.featured-project3 {
+position: absolute;
+margin: 92.375rem 0 0 0;
+width: 50%;
+height: 100%;
+}
+
+.featured-project4 {
+position: absolute;
+margin: 111.125rem 0 0 0;
+width: 50%;
+height: 100%;
+}
+
+.featured-project5 {
+position: absolute;
+margin: 143rem 0 0 0;
+width: 50%;
+height: 100%;
+}
+
+.featured-project6 {
+position: absolute;
+margin: 104.8rem 0 0 705px;
+width: 100%;
+height: 100%;
+}
+
+.featured-project7 {
+position: absolute;
+margin: 123.55rem 0 0 705px;
+width: 100%;
+height: 100%;
+}
+
+.featured-projects {
+  max-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.featured-projects:hover {
+  opacity: .7;
+}
+
+.featured-project1 figcaption {
+  color: black;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+div{
+
+}
+
+Problems to fix:
+*1. sticky doesn't work same on safari and chrome
+*2. Black area is not conver
+3. Image will collapse while change size
+*4. Make image for substitube
+5. change nav bar's color and add logo to it
+*6. Comments on each picture gallery
+7. Contanct info cancel hover
+*/
