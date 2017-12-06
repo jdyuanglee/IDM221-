@@ -7,6 +7,10 @@ body {
   background-color: black;
 }
 
+/*img{
+  width: 100%; 
+}*/
+
 head{
   margin: 0;
 }
@@ -66,7 +70,7 @@ aside a{
 }
 
 .navbar{
-  background-color: #853B37;
+  background-color:#853B37;
   height: 4rem;
   width: 100%; 
   float: left;
@@ -93,7 +97,7 @@ aside a{
 }
 
 .navbar ul li a:hover {
-  color: white;
+  color: black;
 }
 
 .gallery{
@@ -139,12 +143,14 @@ display: block;
 
 .featured-projects img{
   max-width: 100%;
+  margin: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .featured-projects iframe{
   max-width: 100%;
   margin: 0;
+  border: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -233,10 +239,16 @@ display: block;
   font-weight: bold;
   color: white;
 }
+
 .invision:hover a{
     color:#bbb;
     font-weight: bold;;
     text-decoration: underline;
+}
+
+footer{
+  position: relative;
+  top: 27.8rem;
 }
 /*.featured-project1 {
 position: absolute;
