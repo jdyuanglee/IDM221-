@@ -19,7 +19,7 @@ img{
 main {
   background: url('../resources/freshmen-excel-bg.jpg');
   background-size: cover;
-  height: 54rem;
+  height: 63rem;
   float: left; 
   width: 70%;
 }
@@ -34,7 +34,7 @@ aside{
   background: url('../resources/black-background-geometric-shapes.jpg');
   float: left; 
   width: 30%;
-  height: 54rem;
+  height: 63rem;
 }
 
 aside h1{
@@ -71,7 +71,7 @@ aside a{
 }
 
 .navbar{
-  background-color:#853B37;
+  background-color:#59626a;
   height: 4rem;
   width: 100%; 
   float: left;
@@ -172,22 +172,22 @@ figcaption{
 }
 
 .featured-project1 figcaption {
-  bottom: -28rem
+  bottom: -30rem
 }
 .featured-project2 figcaption {
-  bottom: -39rem;
+  bottom: -40rem;
 }
 .featured-project3 figcaption {
-  bottom: -58rem;
+  bottom: -64rem;
 }
 .featured-project4 figcaption {
-  bottom: -75rem;
+  bottom: -90rem;
 }
 .featured-project5 figcaption {
-  bottom: -102rem;
+  bottom: -130rem;
 }
 .featured-project6 figcaption {
-  bottom: -90rem;
+  bottom: -110rem;
 }
 
 .featured-projects:hover figcaption {
@@ -201,6 +201,10 @@ figcaption{
 .featured-projects:hover iframe{
   opacity: .4;
 }
+
+/*.featured-proect5{
+  background: url('../resources/715x390_colored.png');
+}*/
 
 .invision a{
   font-weight: bold;
