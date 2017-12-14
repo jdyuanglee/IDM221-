@@ -12,12 +12,8 @@ img{
   display: block;
 }
 
-/*head{
-  margin: 0;
-}*/
-
 main {
-  background: url('../resources/freshmen-excel-bg.jpg');
+  background-image: url('../resources/freshmen-excel-bg.jpg');
   background-size: cover;
   height: 63rem;
   float: left; 
@@ -38,12 +34,13 @@ aside{
 }
 
 aside h1{
+  font-size: 1.5rem;
   color: white;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 aside a{
+  font-size: 1.05rem;
   color: #bbb;
   font-weight: normal;
 }
@@ -52,7 +49,6 @@ aside a{
   padding: 50% 2rem;
   text-align: left;
 }
-
 
 .title-name {
   position: fixed;
@@ -63,8 +59,8 @@ aside a{
 
 
 .logo{
-  max-height: 3.5rem;
-  max-width: 3.5rem;
+  max-height: 3rem;
+  max-width: 3rem;
   margin: 0.5rem 2rem 0;
   position: fixed;
   z-index: 11;
@@ -82,7 +78,7 @@ aside a{
 
 .navbar ul {
   text-align: right;
-  padding: 0 .7rem;
+  padding: 0 1rem;
 }
 
 .navbar ul li {
@@ -147,17 +143,16 @@ display: block;
 }*/
 
 .featured-projects img{
-/*  width: 100%;
   margin: 0;
-  border: 0;*/
+  border: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
-.featured-projects iframe{
+iframe{
   width: 100%;
-/*  margin: 0;*/
+  margin: 0;
   border: 0;
-  transition: opacity 0.5s ease-in-out;
+  /*transition: opacity 0.5s ease-in-out;*/
 }
 
 figcaption{
@@ -166,28 +161,28 @@ figcaption{
   margin: 0 10%;
   color: white;
   max-width: 30%;
-  font-size: 1rem;
+  font-size: 1.25rem;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
-.featured-project1 figcaption {
+.featured-projectL1 figcaption {
   bottom: -30rem
 }
-.featured-project2 figcaption {
-  bottom: -40rem;
-}
-.featured-project3 figcaption {
+.featured-projectL2 figcaption {
   bottom: -64rem;
 }
-.featured-project4 figcaption {
-  bottom: -90rem;
+.featured-projectL3 figcaption {
+  bottom: -100rem;
 }
-.featured-project5 figcaption {
-  bottom: -130rem;
+.featured-projectR1 figcaption {
+  bottom: -40rem;
 }
-.featured-project6 figcaption {
-  bottom: -110rem;
+.featured-projectR2 figcaption {
+  bottom: -85rem;
+}
+.featured-projectR3 figcaption {
+  bottom: -123rem;
 }
 
 .featured-projects:hover figcaption {
@@ -198,9 +193,9 @@ figcaption{
   opacity: .4;
 }
 
-.featured-projects:hover iframe{
+/*.featured-projects:hover iframe{
   opacity: .4;
-}
+}*/
 
 /*.featured-proect5{
   background: url('../resources/715x390_colored.png');
@@ -219,5 +214,4 @@ figcaption{
 
 footer{
   margin: 0 auto;
-  width: 100%;
 }
